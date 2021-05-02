@@ -1,0 +1,262 @@
+/****BASE STYLES****/
+body {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #EAEBED;
+}
+
+/****GRID STYLES****/
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 33.3333%;
+  float: left;
+
+}
+
+/****HEADER****/
+
+#header {
+  height: 800px;
+  background: url('../img/hero-computer.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#header h1 {
+  font-family: 'Source Code Pro',sans-serif;
+  font-size: 60px;
+  padding-left: 30px;
+}
+
+#header h2 {
+  padding-left: 30px;
+}
+
+#header span {
+  color:#D5A021;
+}
+
+#header nav {
+  float: right;
+  padding: 10px 50px;
+  margin-right: 70px;
+
+}
+
+#header nav ul li {
+  display: inline-block;
+  padding-left: 45px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+#header nav ul li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #EAEBED;
+}
+
+/****PORTFOLIO****/
+
+#work {
+  background-color: #2F2D2E;
+  clear: both;
+}
+
+#work .full-width {
+  padding-top: 30px;
+}
+#work #rogue img {
+  width: 550px;
+  border-color:#D5A021;
+  border-style: solid;
+  border-width: medium;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+#work #rogue strong {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+
+#work #rogue h2 {
+    color: #D5A021;
+    text-align: center;
+}
+
+#work #rogue h3 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  line-height: 10px;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+#work #rogue p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-right: 100px;
+}
+
+#work #jubilee img {
+  width: 550px;
+  border-color:#D5A021;
+  border-style: solid;
+  border-width: medium;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#work #jubilee strong {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+#work #jubilee h3 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  text-align: right;
+  line-height: 10px;
+  padding-right: 70px;
+  margin-top: 30px;
+
+}
+
+#work #jubilee p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  text-align: right;
+  line-height: 30px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+#work #recipe img {
+  width: 550px;
+   border-color:#D5A021;
+   border-style: solid;
+   border-width: medium;
+   margin-left: 70px;
+   margin-top: 30px;
+   margin-bottom: 70px;
+}
+
+#work #recipe strong {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+
+#work #recipe h3 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  line-height: 10px;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+#work #recipe p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  line-height: 30px;
+  padding-left: 30px;
+  margin-right: 110px;
+}
+/****ABOUT****/
+
+#about {
+  height: 500px;
+  background: url('../img/about-me.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#about h2 {
+  color: #40798C;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#about h3 {
+  padding-left: 70px;
+}
+
+#about p {
+  color:#2F2D2E;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-right: 400px;
+}
+
+/***FOOTER***/
+#contact {
+  background-color: #2F2D2E;
+  background-size: cover;
+}
+
+#contact h2{
+  color: #39A0ED;
+  text-align: center;
+}
+
+#contact .third-width {
+  text-align: center;
+  background-color: #2F2D2E;
+  height:auto;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #EAEBED;
+}
+
+#contact #hire {
+  height: 380px;
+  background-color: #2F2D2E;
+  background-size: cover;
+}
+
+#contact #ben img {
+  width: 200px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #D5A021;
+  margin-bottom: 20px;
+
+}
+
+#contact #ben p {
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#contact #follow {
+  height: 380px;
+  background-color: #2F2D2E;
+  background-size: cover;
+}
+
+#contact #follow p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: lighter;
+}
+
+#contact #follow ul {
+  list-style-type: none;
+  padding: 10px;
+  line-height: 40px;
+}
